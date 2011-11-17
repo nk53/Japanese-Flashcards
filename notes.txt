@@ -1,0 +1,12 @@
+phpMyAdmin used this to create the 'kanji' table:
+
+CREATE TABLE  `nakern`.`kanji` (
+`id` INT( 255 ) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`kanji` VARCHAR( 11 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`pronunciation` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`english_translation` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`link` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = MYISAM 
+
+Later I changed it so that 'link' could be null. I might change it back
+when I start adding links.

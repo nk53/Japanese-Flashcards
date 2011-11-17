@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Japanese Flashcards</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="jquery-1.7.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<a href="manage.php">Manage Database</a>
+<h1>Kanji Flashcards</h1>
+<article id="flashcard">
+<span id="kanji"></span>
+<span id="english"></span>
+<span id="pronunciation"></span>
+</article>
+<p><input id="user_guess" type="text" /></p>
+<p><input id="flip" type="button" value="Flip" />
+<input id="new" type="button" value="New" />
+<input id="show_pronunciation" type="button" value="Show pronunciation" />
+<a id="link" type="button" href="">See Kanji Details</a>
+</p>
+<p id="showing">
+Currently showing Kanji
+</p>
+<article id="help_txt">
+Click the "flip" button to turn the flashcard over.<br />
+Click the "new" button to go to the next flashcard.<br />
+Click the "Show pronunciation" button to show the word in hiragana.<br />
+Also try only using your IME pad (or drawing on paper before typing)
+to submit your guess.
+</article>
+</body>
+</html>

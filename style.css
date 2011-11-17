@@ -1,0 +1,26 @@
+table {
+	margin: auto;
+	text-align: center;
+}
+
+#flashcard {
+	font-size: 2em;
+}
+
+#english {
+	display: none;
+}
+
+#pronunciation {
+	display: none;
+}
+
+body {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+input[type="text"] {
+	padding: 0.5em;
+}
