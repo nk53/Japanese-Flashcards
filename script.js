@@ -1,6 +1,9 @@
 // Wait for body to load, set event handlers
 $(document).ready(function() {
   
+  // Prevent IE from treating ajax requests as regular web requests
+  $.ajaxSetup({ cache: false });
+  
   // Show the other side of the flashcard (kanji or translation).
   $('#flip').click(function(e) {
     if ($('#showing').html().indexOf('Kanji') != -1) {
