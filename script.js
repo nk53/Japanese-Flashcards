@@ -17,6 +17,7 @@ $(document).ready(function() {
     }
   });
   
+  // Show the pronunciation in katakana/hiragana
   $('#show_pronunciation').click(function(e) {
     if ($('#show_pronunciation').val().indexOf('Show') != -1) {
       $('#pronunciation').show();
