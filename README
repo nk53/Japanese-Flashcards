@@ -1,5 +1,7 @@
 TODO:
 
+Autodetect when user does not have Chinese charset installed.
+
 Make Drupal 7 module version of this. Make sure the module is also
 capable of being standalone.
 
